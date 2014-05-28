@@ -12,7 +12,7 @@
 		<View id='view3' top=125>
 			<Label>Controller ID Blue bgColor</Label>
 		</View>
-		<Label class='label' id='aboutButton' bottom=50>PURPLE bgColor (Controller Markup)</Label>
+		<Label class='label' id='aboutButton' bottom="30%">PURPLE bgColor (Controller Markup)</Label>
 		<Button class='btn popup-button' id='button' onClick='openModal'>Click</Button>
 	</Window>
 </Alloy>

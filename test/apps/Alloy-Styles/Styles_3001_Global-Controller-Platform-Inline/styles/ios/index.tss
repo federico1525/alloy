@@ -9,3 +9,9 @@
     backgroundColor: "yellow",
     text: 'iPhone'
 }
+
+// iPad
+"Label[platform=ios formFactor=tablet]": {
+    backgroundColor: "orange",
+    text: 'iPAD'
+}

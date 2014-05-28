@@ -12,7 +12,7 @@
 		<View backgroundColor='purple' class='testView' id='view4' top='110dp'>
 			<Label>Inline Purple bgColor</Label>
 		</View>
-		<Label bottom=80>Global generic bgColor BLUE</Label>
+		<Label bottom="30%">Global generic bgColor BLUE</Label>
 		<Button id='button' class="btn"></Button>
 	</Window>
 </Alloy>

@@ -18,8 +18,11 @@
 
 "Button":{
 	bottom:5,
-	width: 100,
 	title:'Click'
+}
+
+".btn":{
+	width: Ti.UI.SIZE
 }
 
 ".testView":{
