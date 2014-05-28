@@ -1,0 +1,5 @@
+".centerView":{
+	height:100,
+	width:'80%',
+	backgroundColor:'orange' // NOT APPLIED
+}

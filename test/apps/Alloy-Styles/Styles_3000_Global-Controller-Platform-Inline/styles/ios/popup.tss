@@ -1,0 +1,23 @@
+
+"Window": {
+	backgroundColor:'purple'
+}
+
+".popup-button": {
+	width: 100
+}
+
+".testView":{
+	backgroundColor:'white'
+}
+
+"#view3":{
+	backgroundColor:'blue'
+}
+
+"#label":{
+	color:'black',
+	font:{
+		fontSize:'10dp'
+	}
+}

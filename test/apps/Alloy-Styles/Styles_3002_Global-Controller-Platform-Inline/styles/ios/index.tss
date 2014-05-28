@@ -1,0 +1,16 @@
+"Label": {
+    backgroundColor: "red",
+    text: 'ERROR!'
+}
+
+
+
+".labels":{
+	text: 'ERROR!'
+}
+
+
+
+"#win2":{
+	text: 'ERROR!'
+}

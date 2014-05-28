@@ -1,0 +1,78 @@
+"Window": {
+	backgroundColor: "white" // not applied
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+
+".firstWin": {
+	backgroundColor:'gray'  // Y
+}
+
+"#label1": {
+	color:'white',
+	text:'you should NOT see this'
+	// backgroundColor: "white",
+}
+
+
+
+// iPhone
+"Label[platform=ios]": {
+    backgroundColor: "purple"
+}
+
+".labels[platform=ios] ":{
+	text: 'iOS :: GRAY background - PURPLE labelBG - BLACK label'
+}
+
+
+//iPhone HANDHELD
+"#label1[platform=ios formFactor=handheld]":{
+	text: 'iOS Handheld :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+//iPhone TABLET
+"#label1[formFactor=tablet]":{
+	text: 'iOS Tablet :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+
+
+// Android
+"Label[platform=android]": {
+    backgroundColor: "purple"
+}
+
+".labels[platform=android] ":{
+	text: 'ANDROID :: GRAY background - PURPLE labelBG - BLACK label'
+}
+
+//Android HANDHELD
+"#label1[platform=android formFactor=handheld]":{
+	text: 'ANDROID HANDHELD :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+//Android TABLET
+"#label1[platform=android formFactor=tablet]":{
+	text: 'ANDROID TABLET :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+
+
+"#label1[platform=mobileweb]":{
+	text: 'MOBILEWEB :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+".labels[platform=mobileweb] ":{
+	text: 'MOBILEWEB :: GRAY background - PURPLE labelBG - BLACK label'
+}

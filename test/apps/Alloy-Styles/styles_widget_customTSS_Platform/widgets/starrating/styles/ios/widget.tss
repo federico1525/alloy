@@ -1,0 +1,7 @@
+".starrating[if=Alloy.Globals.custom1]": {
+	backgroundColor: 'blue'
+}
+
+".testlabel":{
+	text:'widget style class ios folder'
+}

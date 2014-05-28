@@ -1,0 +1,18 @@
+"Window":{
+	backgroundColor:'white'
+}
+
+"Label": {
+	font:{
+		fontSize:'18dp'
+	},
+	color:'green'
+}
+
+".viewHeader": {
+	height:50
+}
+
+"#win1topView": {
+	backgroundColor:'white'
+}

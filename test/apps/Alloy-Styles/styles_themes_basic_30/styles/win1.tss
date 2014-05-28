@@ -1,0 +1,15 @@
+"#win1topView": {
+	backgroundColor:'purple'
+}
+
+"Window": {
+	backgroundColor:'blue' //not going to be displayed
+}
+
+".label": {
+	color:'yellow'
+}
+
+"Button": {
+	width:'60%'
+}

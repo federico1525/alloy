@@ -1,0 +1,18 @@
+<Alloy>
+	<Window>
+		<View class='testView_global' id='view1' top='5dp'>
+			<Label>Global Markup RED bgColor</Label>
+		</View>
+		<View class='testView' id='view2' top='40dp'>
+			<Label>Global Class Orange bgColor</Label>
+		</View>
+		<View class='testView' id='view3' top='75dp'>
+			<Label>Global ID Brown bgColor</Label>
+		</View>
+		<View backgroundColor='purple' class='testView' id='view4' top='110dp'>
+			<Label>Inline Purple bgColor</Label>
+		</View>
+		<Label bottom=50>YOU SHOULD NOT SEE THIS!</Label>
+		<Button id='button' class="btn"></Button>
+	</Window>
+</Alloy>

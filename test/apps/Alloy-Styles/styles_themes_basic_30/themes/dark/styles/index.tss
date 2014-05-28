@@ -1,0 +1,8 @@
+".label": {
+	text:'Text modified by the ANDROID style'
+}
+
+"Button": {
+	title:'CLick - modified by Style',
+	width:'100%'
+}

@@ -1,0 +1,32 @@
+"Label": {
+	color:'blue'
+}
+
+"Window":{
+	title:'iOS!'
+}
+
+".testLabel":{
+	font:{
+		fontSize:'36dp'
+	}
+}
+
+'.container':{
+	backgroundColor:'orange'
+}
+
+"#label1":{
+	color:'black',
+	font:{
+		fontWeight:'bold'
+	},
+	text:'BLACK Bold label',
+	top:5
+}
+
+"#label2":{
+	text:'BLUE label - 36dp Font',
+	top:'50%'
+}
+

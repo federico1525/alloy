@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor:'blue'
+}
+
+
+// this one should apply only the color 'red'
+"#label2": {
+	font: {
+		fontSize:'36dp'
+	},
+	color:'red',
+	text: 'you should NOT see this text'
+}
+
+".backLabel": {
+	text:'ORANGE bg - WHITE label'
+}

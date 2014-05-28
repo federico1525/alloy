@@ -1,0 +1,9 @@
+<Alloy>
+	<Window modal="true" id='modalWin'>
+		<View class="container" id='mainView'>
+			<Label top='20' id='label1'>YELLOW label - ORANGE bg</Label>
+			<Label top='90' id='label2'></Label>
+			<Button onClick='closeModal'>Close</Button>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,10 @@
+"Window":{
+	backgroundColor:'black'
+}
+
+"Label":{
+	font:{
+		fontSize:'24dp'
+	},
+	color:'yellow'
+}

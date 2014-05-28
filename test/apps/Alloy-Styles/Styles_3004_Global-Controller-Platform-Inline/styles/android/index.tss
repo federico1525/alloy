@@ -1,0 +1,13 @@
+"Label": {
+	top:'50%'
+}
+
+".mainLabel": {
+	color:'yellow',
+	backgroundColor:'red',
+	text:'ANDROID platform :: YELLOW label - PURPLE label bg - ORANGE window bg - CENTER positioned' // this text should be ignored because the GLOBAL ID style has precedence over PLATFORM CONTROLER CLASS 
+}
+
+// "#label": {
+	// text:'on Android the label is Yellow and moved to the middle! run on iOS to see the original label message ;)'
+// }

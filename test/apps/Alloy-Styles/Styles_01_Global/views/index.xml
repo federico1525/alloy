@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" id='mainWin'>
+		<Label id="label" onClick="doClick">You should see a YELLOW window backgroundColor</Label>
+	</Window>
+</Alloy>

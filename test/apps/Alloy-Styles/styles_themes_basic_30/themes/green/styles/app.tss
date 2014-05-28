@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor:'orange'
+}
+
+"Label": {
+	color:'green',
+	text:' ANDROID GLOBAL STYLES - Theme is setting Label text, changing color (green) and backgroundColor (orange). Button bottom and title set from scratch. fontSize set in generic style'
+}
+
+"Button": {
+	bottom:5,
+	title:'click'
+}
+
+".viewHeader": {
+	backgroundColor:'yellow'
+}

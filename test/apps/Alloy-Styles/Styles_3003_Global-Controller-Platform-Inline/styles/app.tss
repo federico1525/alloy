@@ -1,0 +1,8 @@
+"Window": {
+	backgroundColor:'blue' // not applied
+}
+
+'#win1':{
+	backgroundColor:'green'  // Y
+}
+

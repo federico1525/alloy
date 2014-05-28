@@ -1,0 +1,52 @@
+
+"#mainWin": {
+	backgroundColor:'orange'
+}
+
+".container": {
+	backgroundColor:'yellow'
+}
+
+"Window" : {
+	backgroundColor:'gray',
+	top:20
+}
+
+
+"Label": {
+	font: {
+		fontSize:'30dp'
+	},
+	top:'10',
+	color:'black'
+}
+
+
+".mainLabel": {
+	color:'white',
+	text:'you should NOT see this'
+}
+
+
+"#label": {
+	backgroundColor:'purple',
+	text: 'You should see this - ORANGE window, white label, 30dp, PURPLE label bgc'
+}
+
+
+"Button": {
+	bottom:10,
+	width:'20%'
+}
+
+".btn": {
+	width:'50%'
+}
+
+'#button': {
+	height:Ti.UI.SIZE,
+	width:'80%',
+	borderColor:'white',
+	borderWidth:2
+}
+

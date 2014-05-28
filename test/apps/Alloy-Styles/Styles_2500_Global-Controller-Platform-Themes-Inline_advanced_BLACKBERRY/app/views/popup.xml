@@ -1,0 +1,11 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<View class='back' onClick='close'>
+				<Label class='backLabel'></Label>
+			</View>
+			<Label bottom='50' id='aboutButton'>PURPLE bg - WHITE label - Button width: </Label>
+			<Button class='btn popup-button' id='button' onClick='openModal'>open modal</Button>
+		</View>
+	</Window>
+</Alloy>

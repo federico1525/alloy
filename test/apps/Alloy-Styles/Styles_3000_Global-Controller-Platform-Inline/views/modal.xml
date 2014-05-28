@@ -1,0 +1,7 @@
+<Alloy>
+	<Window modal="true" id='modalWin' class='container'>
+		<Label id='label1'></Label>
+		<Label id='label2' class='testLabel'></Label>
+		<Button onClick='closeModal' id='button'>Close</Button>
+	</Window>
+</Alloy>

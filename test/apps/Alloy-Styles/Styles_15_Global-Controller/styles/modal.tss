@@ -1,0 +1,25 @@
+".container": {
+	backgroundColor: "white"
+}
+
+// this shouldn't be applied
+"#mainView": {
+	backgroundColor: 'red'
+}
+
+"Window": {
+	title:'modal'
+}
+
+"Label": {
+	color:'black',
+	font: {
+		fontSize:'22dp'
+	}
+}
+
+"#label2": {
+	font: {
+		fontSize:'14dp'
+	}
+}

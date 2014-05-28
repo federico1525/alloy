@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class='firstWin' title="Tab 1">
+		<Label platform='ios' id='label1'>you are on iOS - if you've seen the Alert it's working fine</Label>
+		<Label platform='android' id='label1'>you are on Android - if you've seen the Alert it's working fine</Label>
+		<Label platform='mobileweb' id='label1'>you are on MobileWeb - if you've seen the Alert it's working fine</Label>
+		<Label platform='blackberry' id='label1'>you are on BlackBerry - if you've seen the Alert it's working fine</Label>
+		<Label platform='tizen' id='label1'>you are on Tizen - if you've seen the Alert it's working fine</Label>
+	</Window>
+</Alloy>

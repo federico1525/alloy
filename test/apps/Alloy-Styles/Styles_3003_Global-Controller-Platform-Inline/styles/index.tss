@@ -1,0 +1,76 @@
+"Window": {
+	backgroundColor: "white" // not applied
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+} 
+
+
+".firstWin": {
+	backgroundColor:'gray'  // Y
+}
+
+"#label1": {
+	color:'white',
+	text:'you should NOT see this'
+	// backgroundColor: "white",
+}
+
+
+
+// iPhone
+"Label[platform=ios]": {
+    backgroundColor: "red"
+}
+
+".labels[platform=ios] ":{
+	text: 'ERROR 1',
+	font:{
+		fontSize:'60dp'
+	}
+}
+
+
+//iPhone HANDHELD
+"#label1[platform=ios formFactor=handheld]":{
+	text: 'ERROR 2'
+}
+
+//iPhone TABLET
+"#label1[formFactor=tablet]":{
+	text: 'ERROR 3'
+}
+
+
+
+// Android
+"Label[platform=android]": {
+    backgroundColor: "red"
+}
+
+".labels[platform=android] ":{
+	text: 'ERROR 4',
+	font:{
+		fontSize:'60dp'
+	}
+}
+
+//Android HANDHELD
+"#label1[platform=android formFactor=handheld]":{
+	text: 'ERROR 5'
+}
+
+//Android TABLET
+"#label1[platform=android formFactor=tablet]":{
+	text: 'ERROR 6'
+}
+
+

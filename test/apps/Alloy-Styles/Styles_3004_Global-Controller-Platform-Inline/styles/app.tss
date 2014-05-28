@@ -1,0 +1,48 @@
+
+"#mainWin": {
+	backgroundColor:'orange'
+}
+
+".container": {
+	backgroundColor:'yellow'
+}
+
+"Window" : {
+	backgroundColor:'gray'
+}
+
+
+"Label": {
+	font: {
+		fontSize:'20dp'
+	},
+	top:'10',
+	color:'black',
+	text:'you should NOT see this'
+}
+
+
+".mainLabel": {
+	color:'white'
+}
+
+
+"#label": {
+	backgroundColor:'purple'
+}
+
+
+"Button": {
+	bottom:10,
+	width:'20%'
+}
+
+".btn": {
+	width:'50%'
+}
+
+'#button': {
+	height:Ti.UI.SIZE,
+	width:'80%'
+}
+

@@ -1,0 +1,29 @@
+"View":{
+	layout:'vertical',
+	top:20
+}
+
+"#starrating": {
+	layout: 'horizontal',
+	width: Ti.UI.SIZE,
+	backgroundColor: 'purple'
+}
+
+
+".starrating[if=Alloy.Globals.custom1]": {
+	backgroundColor: 'orange'
+}
+
+
+// "#starrating[if=Alloy.Globals.custom1]": {
+	// backgroundColor: 'yellow'
+// }
+
+"View[if=Alloy.Globals.custom1]":{
+	backgroundColor:'red'
+}
+
+".testlabel[if=Alloy.Globals.custom2]":{
+	text:'widget style class customTSS'
+}
+

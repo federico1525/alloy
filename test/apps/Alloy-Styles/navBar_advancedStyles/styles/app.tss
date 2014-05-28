@@ -1,0 +1,25 @@
+"Window": {
+	backgroundColor: '#fff'
+},
+"Label": {
+	color: '#000',
+	font: {
+		fontWeight: 'bold',
+		fontSize:'36dp'
+	}
+}
+
+// "#label2":{
+	// color:'red'
+// }
+
+".win2label":{
+	color:'orange'
+}
+
+"#label3": {
+	font:{
+		fontSize:'60dp' // should be ignored
+	},
+	color:'purple'
+}

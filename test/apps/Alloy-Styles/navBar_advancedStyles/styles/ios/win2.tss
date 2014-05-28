@@ -1,0 +1,20 @@
+//test1
+// ".win2label":{
+	// color:'green' //should be ignored
+// }
+// 
+// "#label2":{
+	// color:'purple' // should be applied for win2
+// }
+
+
+
+
+//test2
+"Label": {
+	color: 'blue', 
+	font: {
+		fontWeight: 'bold',
+		fontSize:'18dp'
+	}
+}

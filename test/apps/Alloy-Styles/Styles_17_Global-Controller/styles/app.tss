@@ -1,0 +1,40 @@
+'Window': {
+	barColor: 'orange',
+	// barImage: 'header.png',
+	backgroundColor: "white"
+}
+
+// TextArea: {
+	// autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	// autocorrect: false
+// },
+//  
+'Label': {
+	color: 'blue',
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	backgroundColor: 'gray',
+	text:'applying GLOBAL ObjectType - you should not see this'
+}
+
+// 
+// 
+// '.container': {
+	// backgroundColor: 'red'
+// }
+//  
+// 
+".mainLabel":{
+	text:'applying global container class - you should NOT see this',
+	color:'purple'
+}
+
+ 
+// '.darkContainer': {
+	// backgroundColor: 'black'
+// }
+
+
+// "#label": {
+	// text:'applying GLOBAL ID - you should NOT see this'
+// }

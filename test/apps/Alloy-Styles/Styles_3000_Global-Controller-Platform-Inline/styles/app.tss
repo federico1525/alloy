@@ -1,0 +1,38 @@
+"Window":{
+	backgroundColor:'blue',
+	fullscreen:false     // set all Windows HEAVYWEIGHT
+}
+
+"Label":{
+	color:'white',
+	font:{
+		fontSize:'15dp'
+	}
+}
+
+"View": {
+	backgroundColor:'red',
+	height:'30',
+	width:'70%'
+}
+
+"Button":{
+	bottom:5,
+	width: 100,
+	title:'Click'
+}
+
+".testView":{
+	backgroundColor:'orange'
+}
+
+".back":{ 			//class for the top Back View
+	top:0,
+	height:50,
+	width:'100%',
+	backgroundColor:'orange'
+}
+
+"#view3":{
+	backgroundColor:'brown'
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<View id='win1topView' class='viewHeader' top=5></View>
+		<Label class="label">Label and button title defined in XML inline. Styles applied.</Label>
+		<Button id='button' class="btn" bottom='5' onClick='close'>Close</Button>
+	</Window>
+</Alloy>

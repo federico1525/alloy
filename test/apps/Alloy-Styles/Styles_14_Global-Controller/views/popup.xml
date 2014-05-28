@@ -1,0 +1,11 @@
+<Alloy>
+	<Window>
+		<View class="container">
+			<View class='back' onClick='close'>
+				<Label class='backLabel'>Back</Label>
+			</View>
+			<Label>Click on the Button. Width value displayed should be '140', NOT 90% - Button classes are 'btn' and 'popup-button'</Label>
+			<Button id='button' bottom='50' class='btn popup-button' onClick='showButtonWidth'>Click</Button>
+		</View>
+	</Window>
+</Alloy>
