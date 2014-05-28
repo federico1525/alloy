@@ -9,6 +9,7 @@
 			<Window id='win2' class='firstWin' title="Tab 2">
 				<Label class='labels' id='label2' platform="ios">iOS INLINE!</Label>
 				<Label class='labels' id='label2' platform="android">Android INLINE!</Label>
+				<Label class='labels' id='label2' platform="mobileweb">Mobileweb INLINE!</Label>
 			</Window>
 		</Tab>
 	</TabGroup>

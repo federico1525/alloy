@@ -44,7 +44,7 @@
 	text: 'ERROR 2'
 }
 
-//iPhone TABLET
+//TABLET size generic
 "#label1[formFactor=tablet]":{
 	text: 'ERROR 3'
 }
@@ -71,6 +71,18 @@
 //Android TABLET
 "#label1[platform=android formFactor=tablet]":{
 	text: 'ERROR 6'
+}
+
+// Mobileweb
+"Label[platform=mobileweb]": {
+    backgroundColor: "red"
+}
+
+".labels[platform=mobileweb] ":{
+	text: 'ERROR 7',
+	font:{
+		fontSize:'60dp'
+	}
 }
 
 
