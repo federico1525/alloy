@@ -68,6 +68,12 @@
 }
 
 
+// MobileWee
+
+"Label[platform=mobileweb]": {
+    backgroundColor: "purple"
+}
+
 
 "#label1[platform=mobileweb]":{
 	text: 'MOBILEWEB :: GREEN bg - PURPLE labelBG - WHITE Label'
