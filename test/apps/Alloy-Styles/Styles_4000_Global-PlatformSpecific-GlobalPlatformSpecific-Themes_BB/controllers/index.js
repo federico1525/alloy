@@ -1,22 +1,13 @@
+$.index.open();
+
 $.labelView.text = 'Label width: ' + $.view.width;
 
-
-if (ENV_DEV){
+if (ENV_DEV) {
 	alert('Development')
-}
-
-else if (ENV_TEST){
+} else if (ENV_TEST) {
 	alert('Test')
-}
-
-else if (ENV_PRODUCTION){
+} else if (ENV_PRODUCTION) {
 	alert('Production')
-}
-
-else {
+} else {
 	alert('No ENV found')
 }
-
-
-
-$.index.open();
