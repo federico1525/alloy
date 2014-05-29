@@ -2,6 +2,6 @@ function doClick(e) {
     Alloy.createController('win1').getView().open();
 }
 
-$.button.title=$.button.width
+$.button.title="Click! (Button width: " + $.button.width + ")";
  
 $.mainWin.open();
