@@ -1,8 +1,0 @@
-"Label": {
-	color: '#fff'
-}
-
-"Button": {
-	color: '#fff',
-	backgroundImage: '/button_blue.png'
-}
