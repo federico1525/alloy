@@ -1,8 +1,20 @@
+"Window": {
+	backgroundColor:'gray'
+}
+
 "Label": {
-	color: '#fff'
+	color:'black',
+	text:' you should not see this'
 }
 
 "Button": {
-	color: '#fff',
-	backgroundImage: '/button_blue.png'
+	bottom:5,
+	title:'click'
 }
+
+".viewHeader": {
+	backgroundColor:'red'
+}
+
+
+

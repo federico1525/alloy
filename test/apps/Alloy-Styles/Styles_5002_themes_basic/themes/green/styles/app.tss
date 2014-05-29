@@ -4,7 +4,7 @@
 
 "Label": {
 	color:'green',
-	text:' ANDROID GLOBAL STYLES - Theme is setting Label text, changing color (green) and backgroundColor (orange). Button bottom and title set from scratch. fontSize set in generic style'
+	text:' you should not see this'
 }
 
 "Button": {

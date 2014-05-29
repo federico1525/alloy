@@ -1,5 +1,6 @@
 ".label": {
-	text:'Text modified by the iOS style'
+	text:'Text modified by the iOS "green" theme style',
+	color:'green'
 }
 
 "Button": {

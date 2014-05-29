@@ -1,7 +1,7 @@
 <Alloy>
 	<Window>
-		<View id='topView' class='viewHeader' top=5></View>
-		<Label class="Label"></Label>
-		<Button id='button' class="btn" bottom='5'>
+		<View id='topView' class='viewHeader' top="5"/>
+		<Label class="Label"/>
+		<Button id='button' class="btn" bottom='5'/>
 	</Window>
 </Alloy>
