@@ -1,7 +1,20 @@
 ".starrating[if=Alloy.Globals.custom1]": {
-	backgroundColor: 'blue'
+	backgroundColor: 'purple'
 }
 
-".testlabel":{
-	text:'widget style class ios folder'
+
+".testlabel[if=Alloy.Globals.custom1 if=Alloy.Globals.custom2]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom1" and "custom2" are true.'
+}
+
+".testlabel[if=Alloy.Globals.custom1 if!=Alloy.Globals.custom2]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom1" is true. "custom2" is false.'
+}
+
+".testlabel[if!=Alloy.Globals.custom1 if=Alloy.Globals.custom2]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom1" is false. "custom2" is true.'
+}
+
+".testlabel[if!=Alloy.Globals.custom1 if!=Alloy.Globals.custom2]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom1" and "custom2" are false.'
 }

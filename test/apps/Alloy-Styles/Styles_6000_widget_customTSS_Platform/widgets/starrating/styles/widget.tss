@@ -3,27 +3,19 @@
 	top:20
 }
 
-"#starrating": {
-	layout: 'horizontal',
-	width: Ti.UI.SIZE,
-	backgroundColor: 'purple'
+
+".testlabel[if=Alloy.Globals.custom1 if=Alloy.Globals.custom2]":{
+	text:'Widget style class customTSS - Check ALLOY.JS file => "custom1" and "custom2" are true.'
 }
 
-
-".starrating[if=Alloy.Globals.custom1]": {
-	backgroundColor: 'orange'
+".testlabel[if=Alloy.Globals.custom1 if!=Alloy.Globals.custom2]":{
+	text:'Widget style class customTSS - Check ALLOY.JS file => "custom1" is true. "custom2" is false.'
 }
 
-
-// "#starrating[if=Alloy.Globals.custom1]": {
-	// backgroundColor: 'yellow'
-// }
-
-"View[if=Alloy.Globals.custom1]":{
-	backgroundColor:'red'
+".testlabel[if!=Alloy.Globals.custom1 if=Alloy.Globals.custom2]":{
+	text:'Widget style class customTSS - Check ALLOY.JS file => "custom1" is false. "custom2" is true.'
 }
 
-".testlabel[if=Alloy.Globals.custom2]":{
-	text:'widget style class customTSS'
+".testlabel[if!=Alloy.Globals.custom1 if!=Alloy.Globals.custom2]":{
+	text:'Widget style class customTSS - Check ALLOY.JS file => "custom1" and "custom2" are false.'
 }
-

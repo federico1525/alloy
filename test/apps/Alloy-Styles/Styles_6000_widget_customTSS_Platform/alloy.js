@@ -12,5 +12,8 @@
 Alloy.Globals.winTop = (OS_IOS && parseInt(Ti.Platform.version, 10) >= 7) ? 20 : 0;
 Ti.UI.backgroundColor = "#fff";
 
-Alloy.Globals.custom1 = true;
+// Alloy.Globals.custom1 = true;
+Alloy.Globals.custom1 = false;
+
 Alloy.Globals.custom2 = true;
+// Alloy.Globals.custom2 = false;
