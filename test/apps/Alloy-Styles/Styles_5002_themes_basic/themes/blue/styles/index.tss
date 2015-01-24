@@ -1,0 +1,9 @@
+".label": {
+	text:'Text modified by the generic "blue" theme style',
+	color:'blue'
+}
+
+"Button": {
+	title:'Click - modified by Style',
+	width:'100%'
+}

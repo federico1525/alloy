@@ -1,0 +1,8 @@
+".label": {
+	text:'Text modified by the ANDROID "dark" theme style'
+}
+
+"Button": {
+	title:'Click - modified by Style',
+	width:'100%'
+}

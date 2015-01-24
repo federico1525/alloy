@@ -1,0 +1,5 @@
+<Alloy>
+	<Window title="Window 3">
+		<Label id='label3'>This is window 3</Label>
+	</Window>
+</Alloy>

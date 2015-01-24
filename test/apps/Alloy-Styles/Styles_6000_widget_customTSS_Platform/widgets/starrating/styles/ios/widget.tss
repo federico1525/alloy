@@ -1,0 +1,24 @@
+".starrating[if=Alloy.Globals.custom1]": {
+	backgroundColor: 'purple'
+}
+
+".testlabel[if=Alloy.Globals.custom1]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom1" is true.'
+}
+
+".testlabel[if=Alloy.Globals.custom2]":{
+	text:'iOS - Widget style class customTSS - Check ALLOY.JS file => "custom2" is true.'
+}
+
+
+".testlabel[formFactor=!tablet if=Alloy.Globals.custom1]":{
+	text:'iOS - Widget style class customTSS - formFactor => "custom1" is true and device is not a tablet'
+}
+
+".testlabel[platform=ios,mobileweb if=Alloy.Globals.custom1]":{
+	text:'iOS - Widget style class customTSS - platform => "custom1" is true and device is ios or mobileweb'
+}
+
+".testlabel[platform=!mobileweb if=Alloy.Globals.custom1]":{
+	text:'iOS - Widget style class customTSS - platform => "custom1" is true and device is not mobileweb'
+}

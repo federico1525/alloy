@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor:'orange'
+}
+
+"Label": {
+	color:'green',
+	text:' iOS GLOBAL STYLES - Theme is setting Label text, changing color (green) and backgroundColor (orange). Button bottom and title set from scratch. fontSize set in generic style \n \n Top View is YELLOW'
+}
+
+"Button": {
+	bottom:5,
+	title:'click'
+}
+
+".viewHeader": {
+	backgroundColor:'yellow'
+}

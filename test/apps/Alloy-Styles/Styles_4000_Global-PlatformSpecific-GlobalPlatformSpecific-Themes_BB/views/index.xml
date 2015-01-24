@@ -1,0 +1,11 @@
+<Alloy>
+	<Window>
+		<Label id="notes" class='label1' platform="ios"></Label>
+		<Label id="notes" class='label1' platform="android"></Label>
+		<Label id="notes" class='label1' platform="blackberry"></Label>
+		<View id='view' class='centerView'>
+			<Label id='labelView' class='label2'/>
+		</View>
+		<Label class="tester"/>
+	</Window>
+</Alloy>

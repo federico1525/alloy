@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" id='mainWin'>
+		<Label id="label" class='mainLabel'>NOT ANDROID/IOS :: WHITE label - PURPLE label bg - YELLOW win bg</Label>
+		<Button class='btn' id='button' onClick="doClick">Close</Button>
+	</Window>
+</Alloy>

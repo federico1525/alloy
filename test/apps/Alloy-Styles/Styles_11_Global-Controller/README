@@ -1,0 +1,9 @@
+README
+
+This sample checks the correct usage of the global 'app.tss' style and a '<controllername>.tss' style sheet.
+
+Style sheets are merged and applied to the index.xml window. 
+
+Controller style has the precedence over the app.tss - precedences are also respected, so the "#id" style has precedence over ".classname" style and "ObjectName" style.
+ 
+NOTE: In this sample the '#id' style has been defined inside the app.tss style. It still has the precedence over ".class" and "ObjectName" styles even if they are defined in Controller Specific styles or themes.

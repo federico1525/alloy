@@ -1,0 +1,33 @@
+"Window": {
+	backgroundColor: 'gray',
+	fullscreen:false // setting windows to heavyweight
+}
+
+"Label": {
+	color:'white'
+}
+
+".back": {
+	top: 0,
+	height: 100,
+	width: '100%',
+	backgroundColor: 'orange'
+}
+
+".btn": {
+	height: Ti.UI.SIZE,
+	width: '90%',
+	title: 'click'
+}
+
+".backLabel": {
+	font: {
+		fontSize:'20dp',
+		touchable:false
+	}
+}
+
+".backLabel[platform=android]": { 
+	color:'purple'
+}
+

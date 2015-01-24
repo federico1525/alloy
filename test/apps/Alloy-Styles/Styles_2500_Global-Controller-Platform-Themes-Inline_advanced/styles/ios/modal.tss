@@ -1,0 +1,22 @@
+// this shouldn't be applied
+".container": {
+	backgroundColor: "white"
+}
+
+
+"Window": {
+	title:'modal'
+}
+
+"Label": {
+	color:'black',
+	font: {
+		fontSize:'22dp'
+	}
+}
+
+"#label2": {
+	font: {
+		fontSize:'14dp'
+	}
+}

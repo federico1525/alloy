@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="mainWin">
+		<View id='topView' class='viewHeader' top=5>
+			<Label id="label1" color='black'>YELLOW view</Label>
+		</View>
+		<Label class="Label" id="label2"></Label>
+		<Button id='button' class="btn" bottom='5'/>
+	</Window>
+</Alloy>

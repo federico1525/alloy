@@ -1,0 +1,20 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Tab 1" icon="KS_nav_ui.png">
+			<Window id='win1' class='firstWin' title="Tab 1">
+				<Label id='label1' platform='ios' formFactor='handheld'>GREEN bg - YELLOW labelBgColor - BLUE Label</Label>
+				<Label platform='ios' formFactor='tablet'>GREEN bg - ORANGE labelBgColor - BLUE Label</Label>
+				<Label id='label1' platform='android'>GREEN bg - GRAY labelBgColor - BLUE Label</Label>
+				<Label id='label1' platform='mobileweb'>GREEN bg - WHITE labelBgColor - BLUE Label</Label>
+			</Window>
+		</Tab>
+		<Tab title="Tab 2" icon="KS_nav_views.png">
+			<Window id='win2' class='firstWin' title="Tab 2">
+				<Label platform='ios' formFactor='handheld'>PURPLE bg - YELLOW labelBgColor - BLACK label</Label>
+				<Label platform='ios' formFactor='tablet'>PURPLE bg - ORANGE labelBgColor - BLACK label</Label>
+				<Label platform='android'>PURPLE bg - GRAY labelBgColor - BLACK label</Label>
+				<Label platform='mobileweb'>PURPLE bg - WHITE labelBgColor - BLACK label</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

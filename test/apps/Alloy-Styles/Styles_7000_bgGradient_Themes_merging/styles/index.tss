@@ -1,0 +1,15 @@
+"#container": {
+	backgroundGradient: {
+		type: 'pippo',
+		startPoint: { x: '0%', y: '0%' },
+		endPoint: { x: '0%', y: '100%' },
+		colors: ['red', 'orange', 'blue'],
+		customGradient1:'customGradient1 from indexStyle'
+	},
+	right: 10,
+	customPropTheme:"customePropTheme indexStyle"
+}
+
+"#index": {
+	backgroundColor: '#fff'
+}

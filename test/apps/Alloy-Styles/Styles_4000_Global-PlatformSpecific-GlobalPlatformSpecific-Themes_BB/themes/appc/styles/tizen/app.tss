@@ -1,0 +1,12 @@
+// ".tester": {
+	// text: 'global merging is working!'
+// }
+
+"#notes":{
+	text:'you should NOT see this'
+}
+
+".centerView[platform=tizen]":{
+	backgroundColor:'orange'
+}
+

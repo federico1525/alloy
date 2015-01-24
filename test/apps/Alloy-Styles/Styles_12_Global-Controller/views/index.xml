@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" id='mainWin'>
+		<Label id="label" onClick="doClick">You should see an ORANGE backgroundColor. This label is WHITE</Label>
+	</Window>
+</Alloy>

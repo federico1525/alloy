@@ -1,0 +1,22 @@
+"Window":{
+	backgroundColor:'purple' // NOT being applied
+}
+
+"#index": {
+	backgroundColor: 'gray'  // APPLIED
+}
+
+"#notes": {
+	color: 'purple', 
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	},                       // APPLIED
+	text:'you should NOT see this'    // NOT being applied
+}
+
+".centerView":{
+	height:100, 
+	width:'80%',    // APPLIED
+	color:"black"    // NOT being applied
+}

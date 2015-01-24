@@ -1,0 +1,18 @@
+"Label": {
+	font: {
+		fontSize:'30dp'
+	},
+	color:'black'
+}
+
+// "#mainWin": {
+	// backgroundColor:'orange'
+// }
+
+".container": {
+	backgroundColor:'green'
+}
+
+"Window" : {
+	backgroundColor:'gray'
+}

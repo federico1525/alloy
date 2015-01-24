@@ -1,0 +1,6 @@
+<Alloy>
+	<Window>
+		<Label class="Label">White label on Blue background</Label>
+			<Button id='button' class="btn" bottom='5'>
+	</Window>
+</Alloy>

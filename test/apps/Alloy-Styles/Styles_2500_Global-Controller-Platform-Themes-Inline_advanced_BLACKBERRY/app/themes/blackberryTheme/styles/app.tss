@@ -1,0 +1,26 @@
+"Window": {
+	backgroundColor:'blue'
+}
+
+"Label":{
+	font:{
+		fontSize:'18dp'
+	}
+}
+
+// this one should apply only the color 'red'
+"#label2": {
+	font: {
+		fontSize:'36dp'
+	},
+	color:'red',
+	text: 'you should NOT see this text'
+}
+
+".back": {
+	backgroundColor:'green'
+}
+
+".backLabel": {
+	text:'GREEN bg - PURPLE label : Click for Back'
+}

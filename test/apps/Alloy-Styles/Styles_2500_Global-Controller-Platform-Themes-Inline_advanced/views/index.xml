@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="mainWin">
+		<Label class="Label" id="label">White label on bg_gray.png background image</Label>
+			<Button id='button' class="btn" bottom='5'/>
+	</Window>
+</Alloy>

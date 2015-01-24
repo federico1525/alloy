@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="mainWin">
+		<Label class="Label" id="mainLabel">White label ('16dp') on Blue background</Label>
+			<Button id='button' class="btn" bottom='5'/>
+	</Window>
+</Alloy>

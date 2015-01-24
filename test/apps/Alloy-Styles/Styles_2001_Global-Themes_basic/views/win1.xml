@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="mainWin">
+		<View id='win1topView' class='viewHeader' top=5>
+			<Label color='black' id="label1">BLACK label - WHITE bg</Label>
+		</View>
+		<Label class="Label" id="label2">Label and button title defined in XML inline. Styles applied. - Click to close</Label>
+		<Button id='button' class="btn" bottom='5' onClick='close'>Close</Button>
+	</Window>
+</Alloy>

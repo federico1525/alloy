@@ -1,0 +1,18 @@
+<Alloy>
+	<Window>
+		<View class='back' id="view1" onClick='close'>
+			<Label class='backLabel' id="testLabel1">Back</Label>
+		</View>
+		<View top="55" id="view2">
+			<Label id="testLabel2">Global Markup RED bgColor</Label>
+		</View>
+		<View class='testView' top="90" id="testView">
+			<Label id='label3'>Controller Class WHITE bg - Controller ID BLACK label</Label>
+		</View>
+		<View id='view3' top="125">
+			<Label id="testLabel4">Controller ID Blue bgColor</Label>
+		</View>
+		<Label class='label' id='aboutButton' bottom="50">PURPLE bgColor (Controller Markup)</Label>
+		<Button class='btn popup-button' id='button' onClick='openModal'>Click</Button>
+	</Window>
+</Alloy>

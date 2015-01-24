@@ -1,0 +1,23 @@
+// theme-specific override the one in the styles-specific
+".container": {
+	backgroundColor: "orange"
+}
+
+
+"Window": {
+	title:'modal with theme'
+}
+
+"Label": {
+	color:'yellow',
+	font: {
+		fontSize:'16dp'
+	}
+}
+
+"#label2": {
+	font: {
+		fontSize:'14dp'
+	},
+	text:'RED label - 14dp'
+}

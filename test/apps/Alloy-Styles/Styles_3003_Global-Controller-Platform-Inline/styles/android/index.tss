@@ -1,0 +1,25 @@
+
+// Android
+"Label[platform=android]": {
+    backgroundColor: "purple"
+}
+
+
+".labels[platform=android] ":{
+	text: 'ANDROID :: GRAY background - PURPLE labelBG - BLACK label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+
+//Android HANDHELD
+"#label1[platform=android formFactor=handheld]":{
+	text: 'ANDROID HANDHELD :: GREEN bg - PURPLE labelBG - WHITE Label'
+}
+
+
+//Android TABLET
+"#label1[platform=android formFactor=tablet]":{
+	text: 'ANDROID TABLET :: GREEN bg - PURPLE labelBG - WHITE Label'
+}

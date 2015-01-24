@@ -1,0 +1,7 @@
+{
+	"global": {
+		"theme": "green"
+	},
+	"sourcemap": false,
+	"adapters": []
+}

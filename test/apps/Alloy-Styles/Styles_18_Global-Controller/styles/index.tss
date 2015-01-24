@@ -1,0 +1,24 @@
+'Label': {
+	font: {
+		fontSize: "24dp"
+	},
+	width: Ti.UI.FILL,
+	color: 'red',
+	text:'applying controller ObjectType - you should see this'
+}
+
+// 
+// ".container": {
+	// backgroundColor: "purple"
+// }
+// 
+// 
+".mainLabel":{
+	text:'you should NOT see this'
+}
+
+
+
+// "#label": {
+	// text:'applying CONTROLLER ID - you should see this'
+// }

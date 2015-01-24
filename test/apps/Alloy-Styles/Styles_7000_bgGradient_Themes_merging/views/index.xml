@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+	  <View id="container" class="viewClass">
+	    <Label id="label">Check console for Gradient data. Colors go from Purple to Yellow to Blue.</Label>
+	  </View>
+  </Window>
+</Alloy>

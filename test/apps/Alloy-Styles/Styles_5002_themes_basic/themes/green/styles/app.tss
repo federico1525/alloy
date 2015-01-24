@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor:'orange'
+}
+
+"Label": {
+	color:'green',
+	text:' you should not see this'
+}
+
+"Button": {
+	bottom:5,
+	title:'click'
+}
+
+".viewHeader": {
+	backgroundColor:'yellow'
+}

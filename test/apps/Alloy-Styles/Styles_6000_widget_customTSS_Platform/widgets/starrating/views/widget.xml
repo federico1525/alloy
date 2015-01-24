@@ -1,0 +1,5 @@
+<Alloy>
+	<View id='topview' class='topview'>
+		<Label id='testlabel' class='testlabel'></Label>
+	</View>
+</Alloy>

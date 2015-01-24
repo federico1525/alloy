@@ -1,0 +1,4 @@
+README
+
+This sample checks the correct usage of the global 'app.tss' style. 
+Style is applied to the index.xml window, also the precedence is respected, so the ".classname" style has precedence over the "ObjectName" style

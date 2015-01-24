@@ -1,0 +1,28 @@
+
+"Window": {
+	backgroundColor:'purple'
+}
+
+"View":{
+	height:'50'
+}
+
+".popup-button": {
+	borderColor:'white',
+	borderWidth:'2'
+}
+
+".testView":{
+	backgroundColor:'white'
+}
+
+"#view3":{
+	backgroundColor:'blue'
+}
+
+"#label":{
+	color:'black',
+	font:{
+		fontSize:'14dp'
+	}
+}

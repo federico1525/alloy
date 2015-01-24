@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+		<Label id="tester" top='5'>DeepMerging is not supported for bgGradient when using Dynamic Styling. Colors are Green to Orange to Black </Label>
+		<View id="behind"/>
+		<Label id="changer" onClick="changeClasses">change classes</Label>
+	</Window>
+</Alloy>

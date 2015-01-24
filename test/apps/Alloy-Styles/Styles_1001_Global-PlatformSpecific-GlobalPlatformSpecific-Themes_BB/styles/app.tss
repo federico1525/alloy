@@ -1,0 +1,33 @@
+".tester": {
+	color: '#000',
+	font: {
+		fontSize: 24,
+		fontWeight: 'bold'
+	},
+	bottom: 15,
+	height: 120,
+	width: 300,
+	textAlign: 'center',
+	text: 'you should only see this on non-iOS builds'
+}
+
+"#notes[platform=android]":{
+	text:'ANDROID device, PURPLE color, GRAY background\n\nCenter View is ORANGE and 80% width'
+}
+
+"#notes[platform=blackberry]":{
+	text:'BLACKBERRY device, PURPLE color, GRAY background \n Center View is YELLOW and 80% width'
+}
+
+".centerView":{
+	backgroundColor:'yellow',
+	width:20,
+	height:20
+}
+
+"Label":{
+	font:{
+		fontSize:'16dp'
+	},
+	color:'black'
+}

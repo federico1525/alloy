@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="popupWin">
+		<View class="container" id="mainView">
+			<View class='back' onClick='close' id="backView">
+				<Label class='backLabel' id="backLabel">Back</Label>
+			</View>
+			<Label bottom='50' id='mainLabel'>PURPLE win bg - ORANGE Back view. Button width is: </Label>
+			<Button class='btn popup-button' id='button' onClick='openModal'>open modal</Button>
+		</View>
+	</Window>
+</Alloy>

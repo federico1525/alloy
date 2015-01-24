@@ -1,0 +1,47 @@
+// iPhone
+"Label[platform=ios]": {
+    backgroundColor: "purple"
+}
+
+
+".labels[platform=android] ":{
+	text: 'ANDROID :: GRAY background - PURPLE labelBG - BLACK label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+
+//iPhone HANDHELD
+"#label1[platform=ios formFactor=handheld]":{
+	text: 'iOS Handheld :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//iPhone Tablet
+"#label1[platform=ios formFactor=tablet]":{
+	text: 'iOS Tablet :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//Android HANDHELD
+"#label1[platform=android formFactor=handheld]":{
+	text: 'ANDROID Handheld :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//Android Tablet
+"#label1[platform=android formFactor=tablet]":{
+	text: 'Android Tablet :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+

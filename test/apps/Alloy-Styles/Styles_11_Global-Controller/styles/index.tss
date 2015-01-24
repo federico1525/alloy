@@ -1,0 +1,15 @@
+"Label": {
+	color:'white'
+}
+
+// "#mainWin": {
+	// backgroundColor:'blue'
+// }
+
+".container": {
+	backgroundColor:'black'
+}
+
+"Window" : {
+	backgroundColor:'purple'
+}

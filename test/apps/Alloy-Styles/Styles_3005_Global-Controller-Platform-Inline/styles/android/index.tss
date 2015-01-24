@@ -1,0 +1,18 @@
+"Label": {
+	top:'50%'
+}
+
+".mainLabel": {
+	color:'yellow',
+	backgroundColor:'red',
+	text:'ANDROID! label is yellow and moved to the center. backgroundColor GREEN. Button is 100%'  
+}
+
+'#button': {
+	height:Ti.UI.SIZE,
+	width:'100%'
+}
+
+// "#label": {
+	// text:'on Android the label is Yellow and moved to the middle! run on iOS to see the original label message ;)'
+// }

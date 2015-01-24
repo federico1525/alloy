@@ -1,0 +1,6 @@
+"Label": {
+	color: 'black',
+	font:{
+		fontSize:'24dp'
+	}
+}

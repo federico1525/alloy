@@ -1,0 +1,12 @@
+<Alloy>
+	<Window>
+		<Label id="notes" class='label1' platform="ios">Below you should see a red box with a rounded black border and white bold text inside. On iOS, it should say "global merging is working!" with a gray drop shadow.
+		</Label>
+		<Label id="notes" class='label1' platform="android"></Label>
+		<Label id="notes" class='label1' platform="blackberry"></Label>
+		<View id='view' class='centerView'>
+			<Label id='labelView' class='label2'/>
+		</View>
+		<Label class="tester"/>
+	</Window>
+</Alloy>

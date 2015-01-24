@@ -1,0 +1,17 @@
+"Window": {
+	backgroundColor:'orange'
+}
+
+"Label": {
+	color:'green',
+	text:'MobileWeb platform - ORANGE bg, GREEN label'
+}
+
+"Button": {
+	bottom:5,
+	title:'click'
+}
+
+".viewHeader": {
+	backgroundColor:'yellow'
+}

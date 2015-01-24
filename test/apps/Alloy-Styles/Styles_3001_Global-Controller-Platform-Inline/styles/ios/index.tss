@@ -1,0 +1,17 @@
+// iPhone
+"Label": {
+    backgroundColor: "red",
+    text: 'you should NOT see this'
+}
+
+// iPhone
+"Label[platform=ios formFactor=handheld]": {
+    backgroundColor: "yellow",
+    text: 'iPhone'
+}
+
+// iPad
+"Label[platform=ios formFactor=tablet]": {
+    backgroundColor: "orange",
+    text: 'iPAD'
+}

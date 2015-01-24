@@ -1,0 +1,60 @@
+// iPhone
+"Label[platform=mobileweb]": {
+    backgroundColor: "purple"
+}
+
+
+".labels[platform=android,ios] ":{
+	text: "ERROR!", // should not see this
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+
+//iPhone HANDHELD
+"#label1[platform=ios formFactor=handheld]":{
+	text: "ERROR!",
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//iPhone Tablet
+"#label1[platform=ios formFactor=tablet]":{
+	text: "ERROR!",
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//Android HANDHELD
+"#label1[platform=android formFactor=handheld]":{
+	text: "ERROR!",
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//Android Tablet
+"#label1[platform=android formFactor=tablet]":{
+	text: "ERROR!",
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+//MobileWeb
+"#label1[formFactor=handheld]":{
+	text: 'MOBILEWEB HANDHELD size :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}
+
+"#label1[formFactor=tablet]":{
+	text: 'MOBILEWEB TABLET size :: GREEN bg - PURPLE labelBG - WHITE Label',
+	font:{
+		fontSize:'24dp'
+	}
+}

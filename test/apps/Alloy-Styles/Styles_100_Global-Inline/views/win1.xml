@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" id='mainWin'>
+		<Label id="label" class='mainLabel'>You should see this (xml text) - same style</Label>
+		<Button class='btn' id='button' onClick="doClick">Close</Button>
+	</Window>
+</Alloy>

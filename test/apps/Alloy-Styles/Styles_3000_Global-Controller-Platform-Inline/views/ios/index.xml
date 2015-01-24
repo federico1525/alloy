@@ -1,0 +1,18 @@
+<Alloy>
+	<Window>
+		<View class='testView_global' id='view1' top='5dp'>
+			<Label id="label1">Global Markup RED bgColor</Label>
+		</View>
+		<View class='testView' id='view2' top='40dp'>
+			<Label id="label2">Global Class Orange bgColor</Label>
+		</View>
+		<View class='testView' id='view3' top='75dp'>
+			<Label id="label3">Global ID Brown bgColor</Label>
+		</View>
+		<View backgroundColor='purple' class='testView' id='view4' top='110dp'>
+			<Label id="label4">Inline Purple bgColor</Label>
+		</View>
+		<Label bottom="50" id="label5">Global generic bgColor BLUE</Label>
+		<Button id='button' class="btn"></Button>
+	</Window>
+</Alloy>

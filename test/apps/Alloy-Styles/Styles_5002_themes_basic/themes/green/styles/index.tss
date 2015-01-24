@@ -1,0 +1,9 @@
+".label": {
+	text:'Text modified by the iOS "green" theme style',
+	color:'green'
+}
+
+"Button": {
+	title:'CLick - modified by Style',
+	width:'100%'
+}

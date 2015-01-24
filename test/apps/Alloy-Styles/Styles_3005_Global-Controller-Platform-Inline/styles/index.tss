@@ -1,0 +1,7 @@
+".container": {
+	backgroundColor:'green'  //ignored for iOS - platform specific has precedence
+}
+
+".mainLabel": {
+	text: 'Not on Android? WHITE label - PURPLE label bg - BUTTON is 80%'
+}

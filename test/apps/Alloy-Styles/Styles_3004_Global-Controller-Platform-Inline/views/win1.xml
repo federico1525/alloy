@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container" id='mainWin'>
+		<Label id="label" class='mainLabel'>WHITE label - PURPLE label bg - ORANGE win bg</Label>
+		<Button class='btn' id='button' onClick="doClick">Close</Button>
+	</Window>
+</Alloy>
