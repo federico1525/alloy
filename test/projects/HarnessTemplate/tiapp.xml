@@ -6,6 +6,7 @@
         <target device="ipad">true</target>
         <target device="android">true</target>
         <target device="blackberry">true</target>
+        <target device="windows">true</target>
     </deployment-targets>
     <sdk-version>3.5.0.GA</sdk-version>
     <id>com.appcelerator.AlloyHarness</id>
@@ -69,9 +70,13 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
+    <windows>
+        <!-- Add Windows specific nodes, such as orientation handling, here -->
+    </windows>
     <modules>
         <module platform="iphone">ti.paint</module>
         <module platform="android">ti.map</module>
         <module platform="iphone">ti.map</module>
+        <module platform="windows">ti.map</module>
     </modules>
 </ti:app>
