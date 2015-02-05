@@ -1,0 +1,111 @@
+androidKeystore="/Users/$USER/TITANIUM/ANDROID_KEYSTORE/fedekey.keystore";
+androidKeystoreAlias="federico";
+androidKeystorePass="fede1525";
+iosPPUID=`ti info -t ios | grep --context=1 "Development" | grep -o '[A-Z0-9]*-[A-Z0-9]*-[A-Z0-9]*-[A-Z0-9]*-[A-Z0-9]*' | head -1`;
+
+#------- SET UP ENVIRONMENT -------#
+printf "Please Wait...\n"; x=1;
+git pull;
+z=$(ls -R | grep -Fx tiapp.xml | wc -l)
+location=${PWD##*/}
+
+#----------- USER MENU ------------#
+menu (){
+	clear; echo $z valid projects have been found!
+	printf " 1) Update SDK Version\n 2) Clean All Projects\n 3) Run The Full Test\n 4) Run Jake Installs\n 5) Exit\n"
+	read -ep "Please make a choice: " menu
+}
+
+#------- CHANGE SDK VERSION -------#
+changeSDK (){
+	printf "\nInstalled SDKs\n";
+	ti sdk --no-banner | grep -o ' [0-9]*\.[0-9]*\.[0-9]*\.[a-zA-Z0-9]*'
+	printf "\n";
+	read -ep "Please Enter Your SDK Version: " sdkversion
+	echo "Please wait..."
+	find . -name 'tiapp.xml' -exec sed -i -e 's/<sdk-version>.*<\/sdk-version>/<sdk-version>'$sdkversion'<\/sdk-version>/g' '{}' \;
+	find . -name 'tiapp.xml-e' -exec rm -rf '{}' \;
+}
+
+#--------- CLEAN PROJECTS ---------#
+cleanProject (){
+	echo "Please wait..." & find . -name 'tiapp.xml' -exec ti clean -d '{}/..' --no-banner --log-level info \;
+}
+
+
+#--------- RUN FULL TEST ----------#
+runFullTest (){
+	printf " 1) Android\n 2) BlackBerry\n 3) iOS\n 4) MobileWeb\n"
+	read -ep "Please make a choice: " platform
+
+	#---------------------------------ANDROID--------------------------------#
+		if [ "$platform" == "1" ]; then
+			find . -name 'tiapp.xml' -exec echo '{}' \; -exec ti build -p android -T dist-playstore -K "$androidKeystore" -P "$androidKeystorePass" -L "$androidKeystoreAlias" -d {}/.. -O {}/.. --log-level error --no-banner \;
+			find . -name '*.apk' -not -path "*/bin/*" -exec adb install '{}' \;
+			exit $?
+		fi
+
+	#-------------------------------BLACKBERRY------------------------------#
+
+		if [ "$platform" == "2" ]; then
+			read -ep "Device IP: " devIp
+			read -ep "Device Password: " devPass
+			read -ep "Keystore Location: " keyLoc
+			read -ep "Keystore Password: " keyPass
+			find . -name 'tiapp.xml' -exec ti build -p blackberry -T distribute -O {}/.. -D "$keyLoc" -K $keyPass -N "/Applications/Momentics.app" -A $devIp -P $devPass -d {}/.. \;
+			find . -name '*.bar' -not -path "*/blackberry/build/*" -exec blackberry-deploy -installApp -password "$devPass" -device "$devIp" -package {} \;
+			exit $?
+		fi
+
+	#-----------------------------------IOS----------------------------------#
+
+		if [ "$platform" == "3" ]; then
+			find . -name 'tiapp.xml' -exec echo '{}' \; -exec ti build -p ios -T device --pp-uuid "$iosPPUID" -d '{}/..' -O {}/.. --log-level error --no-banner -b \;
+			find . -name '*.ipa' -exec ideviceinstaller -i {} \;
+			exit $?
+		fi
+
+	#-------------------------------MOBILE WEB------------------------------#
+
+		if [ "$platform" == "4" ]; then
+			find . -name 'tiapp.xml' -exec ti build -p mobileweb --deploy-type development -d '{}/..' -b \;
+			find . -name 'index.html' -not -path "*/documentation/*" -exec open '{}' \;
+			exit $?
+		fi
+}
+#----------------------------------JAKE---------------------------------#
+
+runJakeTest (){
+	w=$(find . -name 'index.js' -not -path "*/_generated/*" | wc -l)
+	echo  $w valid jake projects have been found!
+	printf " 1) Android\n 2) iOS\n"
+	read -ep "Please make a choice: " platform
+
+#--------------------------------ANDROID--------------------------------#
+
+	if [ "$platform" == "1" ]; then
+		jakeInstall(){
+			find . -name 'index.js' -not -path "*/_generated/*" -exec jake app:run dir='{}/../..' platform=android target=device \; -exec read -ep "Continue?" \;
+		}
+	fi
+
+#----------------------------------IOS----------------------------------#
+
+	if [ "$platform" == "2" ]; then
+		jakeInstall(){
+			find . -name 'index.js' -not -path "*/_generated/*" -exec jake app:run dir='{}/../..' platform=iphone target=device V="QE Department (C64864TF2L)" P="f0a56225-0b09-4694-aecd-630953506ca6" \; -exec read -ep "Continue?" \;
+		}
+	fi
+	jakeInstall;
+}
+
+#----------------------------------EXIT---------------------------------#
+
+while true; do
+	menu;
+	if [ "$menu" == "1" ]; then changeSDK; fi
+	if [ "$menu" == "2" ]; then cleanProject; fi
+	if [ "$menu" == "3" ]; then runFullTest; fi
+	if [ "$menu" == "4" ]; then runJakeTest; fi
+	if [ "$menu" == "5" ]; then exit 0; fi
+done;
